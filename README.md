@@ -1,4 +1,5 @@
-# CodeAlpha_Calculator
+# CodeAlpha_Calculator  
+#Calculator Project
 . A simple and interactive calculator built using HTML CSS and JavaScript.
 # How to use
 simply one index.html file in your browser to use the calculator.
