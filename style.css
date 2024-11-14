@@ -1,0 +1,50 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffefd5;
+
+    
+}
+ .calculator {
+    height: 29rem;
+    width: 23rem;
+    background-color: #cfdef3;
+    border-radius: 1rem;
+    background-color: #cfdef3;
+    border: 3px solid black;
+ }
+
+ .display{
+    padding: 1.5rem;
+    width: 22.3rem;
+    background-color: rgb(246, 229, 197);
+    height: 4.5rem;
+    margin: 0.3rem;
+    border-radius: 0.8rem;
+ }
+
+ .buttons{
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);  /* Create 3 equal width coloum with the fraction of 1 */
+    gap: 0.8rem;
+    margin: 1rem;
+    padding: 1rem;
+
+    
+ }
+
+ button {
+    font-size: 1rem;
+    padding: 12px;
+    border-radius: 1.2rem;
+
+ }
+ 
+
